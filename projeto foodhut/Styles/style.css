@@ -95,7 +95,7 @@ ul li:active{
 
 #ptu{
     background-color: #f5474725;
-    width:fit-content;
+    width:185px;
     padding: 4px;
     padding-top: 0px;
     border-radius: 15px;
@@ -240,18 +240,25 @@ ul li:active{
 
 #slider{
     position: absolute;
-    margin-top: 250px;
+    margin-top: 320px;
 }
 
 #middle{
     font-size: 40pt;
     font-weight: bold;
-    margin-left: auto;
-    margin-right: auto;
     width: fit-content;
+    padding-left: 25%;
 }
 
 #middle p{
     position: relative;
     float: left;
+    margin-left: auto;
+}
+
+#sub-title{
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 0.637);
 }
