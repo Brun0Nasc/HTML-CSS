@@ -320,3 +320,42 @@ ul li:active{
     align-items:center;
     color: white;
 }
+
+.card #rate{
+    position: absolute;
+    margin-top: 250px;
+    padding-right: 60px;
+}
+
+.card #pessoinha{
+    margin-left: -25px;
+}
+
+.card #estrela{
+    padding-bottom: 8px;
+    margin-left: 10px;
+}
+
+.card #nota{
+    position: absolute;
+    padding-top: 10px;
+    margin-left: 12px;
+}
+
+.card #legenda{
+    position: absolute;
+    margin-top: 290px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.card #title{
+    color: #be3d3d;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.card #cardtxt{
+    font-size: 12pt;
+    color: rgba(0, 0, 0, 0.674);
+}
