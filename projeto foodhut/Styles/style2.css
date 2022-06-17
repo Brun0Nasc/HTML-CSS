@@ -1,0 +1,189 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root {
+  --cor1: #ffffff;
+  --cor2: #F54748;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 5%;
+  
+}
+
+button{
+  border-radius: 50px;
+  border: 0ch;
+  background-color: var(--cor2);
+  color: var(--cor1);
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 12pt;
+}
+
+#tred{
+  color: var(--cor2);
+}
+@media screen and (min-width: 1025px){
+  header{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1900px;
+    align-items: center;
+  }
+
+  .logo{
+    float: left;
+    display: flex;
+    align-content: center;
+    margin-top: 20px;
+  }
+
+  .menu-content{
+    position: relative;
+    float: right;
+    width: 80%;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+
+  li{
+    margin: 2%;
+  }
+
+  main{
+    display: flex;
+    width: 100%;
+    max-width: 1900px;
+    margin-top: 3%;
+  }
+
+  .main-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .main-left{
+    max-width: 50%;
+    padding-top: 70px;
+  }
+
+  .main-right img{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+  }
+
+  #msg-coracao{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: #f5474725;
+    width:175px;
+    border-radius: 15px;
+    font-size: 13pt;
+  }
+
+  #msg-coracao img{
+    margin-right: 5px;
+  }
+
+  .ln1_text{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    
+    margin: 0px;
+    max-width: 800px;
+  }
+
+  .ln1_text p{
+    margin: 0%;
+    font-size: 50pt;
+    margin-right: 50px;
+  }
+
+  .ln2_text{
+    font-size: 22pt;
+    max-width: 90%;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.677);
+}
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    width: 100%;
+  }
+
+  .main-container{
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  
+  .menu-content{
+    display: none;
+  }
+
+  .logo img {
+    width: 90%;
+    height: auto;
+  }
+
+  .logo{
+    float: left;
+  }
+
+  .main-right img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+  }
+
+  .main-right{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+
+  #msg-coracao{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: #f5474725;
+    width:160px;
+    border-radius: 15px;
+    font-size: 13pt;
+  }
+
+  #msg-coracao img{
+    margin-right: 5px;
+  }
+
+  .ln1_text{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    font-size: 30pt;
+  }
+  .ln1_text p{
+    margin-right: 15px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+}

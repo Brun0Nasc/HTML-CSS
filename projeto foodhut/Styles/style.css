@@ -2,23 +2,23 @@
 
 body{
     background-color: #f547470c;
-    max-width: 1800px;
+    max-width: 2000px;
     margin-left: auto;
     margin-right: auto;
 }
 
-#main{
-    position: relative;
-}
-
 .container{
   clear:both;
-  margin-left: 130px;
-  margin-right: 130px;
+  margin-left: 7%;
+  margin-right: 7%;
+
 }
 
 #main{
-    margin-bottom: 890px;
+    margin-bottom: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #middle{
@@ -37,7 +37,7 @@ body{
 }
 
 #container_header{
-    margin-top: 32px;
+    margin-top: 2%;
 }
 
 nav{float:right;}
@@ -45,8 +45,8 @@ nav{float:right;}
 .logo img{float:left;}
 
 ul li{
-  display: inline-block; padding:10px;
-  font-size:20px;
+  display: inline-block; margin-left: 2%;
+  font-size: 16pt;
 }
 
 ul li:hover{
@@ -58,14 +58,10 @@ ul li:active{
     color: #9d2d2d;
 }
 
-#menu_btn{
-    padding-left: 100px;
-}
-
 #menu_btn input{
     border-radius: 25px;
-    padding-top: 13px; padding-bottom: 13px;
-    padding-right: 40px; padding-left: 40px;
+    padding-top: 12%; padding-bottom: 12%;
+    padding-right: 22%; padding-left: 22%;
     font-size: 16px;
     background-color: #F54748; color: white;
     border: none;
@@ -111,14 +107,17 @@ ul li:active{
     margin-top: 50px;
     width: 45%;
     height:auto;
-    position: absolute;
-    float: left;
 }
+
 #main_right{
     width: 45%;
-    height: 500px;
-    position: relative;
-    float: right;
+    height: auto;
+
+}
+
+#main_right img{
+    max-width: 100%;
+    height: auto;
 }
 
 .ln1_text{
