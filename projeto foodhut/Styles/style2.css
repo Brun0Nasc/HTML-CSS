@@ -119,12 +119,12 @@ button{
 
   .ln1_text p{
     margin: 0%;
-    font-size: 50pt;
+    font-size: calc(3vw + 0.5em);
     margin-right: 50px;
   }
 
   .ln2_text{
-    font-size: 22pt;
+    font-size: calc(1vw + 0.7em);
     max-width: 90%;
     text-align: left;
     color: rgba(0, 0, 0, 0.677);
@@ -133,7 +133,8 @@ button{
   #search{
     background: url("../Assets/Images/lupa.png") no-repeat scroll 13px 15px;
     border-radius: 30px;
-    width: 650px;
+    width: 35%;
+    max-width: 750px;
     box-shadow: none;
     font-size: 14pt;
     padding-top: 15px;
@@ -146,10 +147,15 @@ button{
     margin-bottom: 2px;
     margin-left: 2px;
     outline: none;
+    position: absolute;
+    float: left;
   }
 
 .search_area{
-    width: 650px;
+    width: 80%;
+    height: 80px;
+    display: flex;
+    justify-content: right;
 }
 
 #bt_search{
@@ -166,8 +172,41 @@ button{
   }
 
   #area-buttom{
-    position: absolute;
+    position: relative;
     float: right;
+  }
+
+  #links{
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+  }
+
+  #bt_play{
+    background-image: url("../Assets/Images/Polygon1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 46px;
+    height: 46px;
+    background-color: #ffff;
+    border-radius: 100%;
+    box-shadow: 0px 15px 30px rgba(233, 105, 81, 0.3);
+    margin-left: 7%;
+  }
+
+  #link_video{
+    font-size: 15pt;
+    margin-left: 2%;
+  }
+
+  #link_video a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.625);
+  }
+
+  #slider{
+    padding-top: 3%;
+    width: 100%;
   }
 }
 
@@ -231,5 +270,89 @@ button{
     margin-right: 15px;
     margin-top: 0%;
     margin-bottom: 0%;
+  }
+
+  .ln2_text{
+    font-size: calc(1vw + 0.9em);
+    max-width: 90%;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.677);
+  }
+
+  #search{
+    background: url("../Assets/Images/lupa.png") no-repeat scroll 13px 15px;
+    border-radius: 30px;
+    width: 80%;
+    height: 58px;
+    max-width: 750px;
+    box-shadow: none;
+    font-size: 14pt;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgba(255, 255, 255, 0);
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.255);
+    padding-left:45px;
+    padding-right: 20px;
+    outline: none;
+    margin-right: 5%;
+  }
+
+.search_area{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#bt_search{
+    background: url("../Assets/Images/lupa_branca.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 18px;
+    padding-left: 32px;
+    border-radius: 100%;
+    background-color: var(--cor3);
+    border-style: none;
+  }
+
+  #area-buttom{
+    position: relative;
+    float: right;
+  }
+
+  #links{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+  }
+
+  #bt_play{
+    background-image: url("../Assets/Images/Polygon1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 46px;
+    height: 46px;
+    background-color: #ffff;
+    border-radius: 100%;
+    box-shadow: 0px 15px 30px rgba(233, 105, 81, 0.3);
+    margin-left: 7%;
+  }
+
+  #link_video{
+    font-size: 15pt;
+    margin-left: 2%;
+  }
+
+  #link_video a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.625);
+  }
+
+  #slider{
+    padding-top: 10%;
+    width: 100%;
   }
 }
