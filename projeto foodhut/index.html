@@ -3,82 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Hut</title>
-    <link rel="stylesheet" href="Styles/style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="Styles/style.css">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
-    <div id="seta">
-        <img src="Assets/Images/seta.png" alt="">
-    </div>
     <header>
-        <div class="container" id="container_header">
-            <div class="logo">
-                <a href="#"><img src="Assets/Images/Logo.png" alt="Logo" width="121"></a>
-            </div>
-            <nav>
-                <ul>
-                    <li>Today special offers</li>
-                    <li>Why FoodHut</li>
-                    <li>Our Menu</li>
-                    <li>Our Popular food</li>
-                    <li id="menu_btn"><input type="button" value="Download App"></li>
-                </ul>
-            </nav>
+        <div class="logo"><img src="Assets/Images/Logo.png" alt="" ></div>
+        <div class="menu-burger"><img src="Assets/Images/menu.png"></div>
+        <div class="menu-content">
+            <ul class="list-menu">
+                <li class="item-menu">
+                    <a class="link-menu">Today special offers</a>
+                </li>
+                <li class="item-menu">
+                    <a class="link-menu">Why FoodHut</a>
+                </li>
+                <li class="item-menu">
+                    <a class="link-menu">Our Menu</a>
+                </li>
+                <li class="item-menu">
+                    <a class="link-menu">Our Popular food</a>
+                </li>
+                <li class="item-menu">
+                    <button>Download App</button>
+                </li>
+            </ul>
         </div>
     </header>
-    <div class="container" id="main">
-        <div id="main_left">
-            <div id="ptu">
-                <img src="Assets/Images/icon_heart.png" alt="Coração" width="20px" id="heart">
-                <span id="txt_heart">People Trust us</span>  
+    <main>
+        <div class="main-container">
+            <div class="main-left">
+                <div id="msg-coracao">
+                    <img src="Assets/Images/icon_heart.png" alt="Coração" id="coracao">
+                    <span id="txt-coracao">People Trust us</span>  
+                </div>
+                <div class="ln1_text">
+                    <p id="tblack">We're</p>
+                    <p id="tred">Serius</p>
+                    <p id="tblack">For</p>
+                    <p id="tred">Food</p>
+                    <p id="tblack">&</p>
+                    <p id="tyellow">Delivery</p>
+                    <p id="tblack">.</p>
+                </div>
+                <div class="ln2_text">
+                    <p>Best cooks and best delivery guys all at your service. Hot tasty food will reach you in 60 minutes.</p>
+                </div>
+                <div class="search_area">
+                        <input type="search" name="Search" id="search" placeholder="Search food">
+                        <div id="area-buttom"><input type="button" value="" id="bt_search"></div>
+                </div>
+                <div id="links">
+                    <div class="bt_download" id="bt_main">
+                        <button>Download App</button>
+                    </div>
+
+                    <div id="bt_play">
+                    </div>
+
+                    <div id="link_video">
+                        <a href="">Watch video</a>
+                    </div>
+                </div>
             </div>
-            <div class="ln1_text">
-                <p class="tx" id="tblack">We're</p>
-                <p class="tx" id="tred">Serius</p>
-                <p class="tx" id="tblack">For</p>
-            </div>
-            <div class="ln1_text">
-                <p class="tx" id="tred">Food</p>
-                <p class="tx" id="tblack">&</p>
-                <p class="tx" id="tyellow">Delivery</p>
-                <p class="tx" id="tblack">.</p>
-            </div>
-            <div id="decore">
-                <img src="Assets/Images/Decore.png" alt="decore">
-            </div>
-            <div class="ln2_text">
-                <p>Best cooks and best delivery guys all at your service. Hot tasty food will reach you in 60 minutes.</p>
-            </div>
-            <div class="search_area">
-                    <input type="search" name="Search" id="search" placeholder="Search food">
-                    <input type="button" value="" id="bt_search">
-            </div>
-            <div class="bt_download" id="bt_main">
-                <input type="button" value="Download App">
-            </div>
-            <div id="bt_play">
-            </div>
-            <div id="link_video">
-                <a href="">Watch video</a>
-            </div>
-            <div id="slider">
-                <img src="Assets/Images/slider.png" alt="">
+            <div class="main-right">
+                <img src="/projeto foodhut/Assets/Images/img_meninacome.png" alt="Menina comendo">
             </div>
         </div>
-        <div id="main_right">
-            <img src="/projeto foodhut/Assets/Images/img_meninacome.png" alt="Menina comendo">
-        </div>
+    </main>
+    <div id="slider">
+        <img src="Assets/Images/slider.png" alt="">
     </div>
     <div class="container" id="middle">
-        <p class="tx" id="tblack">Today</p> <p class="tx" id="tred">Special</p> <p class="tx" id="tblack">Offers</p>
+        <p class="tx">Today &nbsp;</p> <p class="tx" id="tred">Special &nbsp;</p> <p class="tx">Offers </p>
     </div>
     <div class="container" id="sub-title">
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the <br>industry's standard dummy text ever since the 1500s</p>
     </div>
-    <div class="container" style="display: flex; flex-direction: row; justify-content: center; align-items: center;">
-        <div class="card" id="ponta">
+    <div class="container" id="cards">
+        <div class="card">
             <div id="borda">
                 <div id="img">
                     <img src="/projeto foodhut/Assets/Images/comida.png" alt="comida">
@@ -97,7 +102,7 @@
                 <p id="cardtxt">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
             </div>
         </div>
-        <div class="card">
+        <div class="card" id="card-desktop">
             <div id="borda">
                 <div id="img">
                     <img src="/projeto foodhut/Assets/Images/comida2.png" alt="comida">
@@ -116,7 +121,7 @@
                 <p id="cardtxt">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
             </div>
         </div>
-        <div class="card">
+        <div class="card" id="card-desktop">
             <div id="borda">
                 <div id="img">
                     <img src="/projeto foodhut/Assets/Images/comida3.png" alt="comida">
@@ -135,7 +140,7 @@
                 <p id="cardtxt">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
             </div>
         </div>
-        <div class="card" id="ponta">
+        <div class="card" id="card-desktop">
             <div id="borda">
                 <div id="img">
                     <img src="/projeto foodhut/Assets/Images/comida4.png" alt="comida">
