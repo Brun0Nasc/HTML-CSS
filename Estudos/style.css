@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+img {
+    width: 80%;
+    height: auto;
+}
+
+
+
+ul li{
+    font-size: 1vw;
+}
+
+:root {
+    --cor1: #E71D36;
+}
+
+.red{
+    color: var(--cor1);
+}
+
+.title{
+    font-weight: 600;
+    font-size: 3.5vw;
+}
+
+.subtitle{
+    font-size: 1.3vw;
+}
+
+#logo{
+    font-weight: 600;
+    font-size: 3.5vw;
+    color: var(--cor1);
+}
+
+header{
+    background-image: linear-gradient(to right, #FFE5E5, #F5FFFE, #FCF3FF, #FFF4E5);
+}
+
+.bt-red{
+    border-radius: 80px !important;
+    background-color: var(--cor1) !important;
+    color: #FFFFFF !important;
+    font-size: 1vw !important;
+}
+
+.circulo-vermelho{
+    width: 45px;
+    height: 45px;
+    background-color: #e71d352f;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circulo-vermelho-2{
+    width: 35px;
+    height: 35px;
+    background-color: #e71d3550;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circulo-vermelho-3{
+    width: 25px;
+    height: 25px;
+    background-color: #e71d35;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("images/triangulo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
