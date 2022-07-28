@@ -50,8 +50,8 @@ header{
 }
 
 .circulo-vermelho{
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     background-color: #e71d352f;
     border-radius: 100%;
     display: flex;
@@ -60,9 +60,9 @@ header{
 }
 
 .circulo-vermelho-2{
-    width: 35px;
-    height: 35px;
-    background-color: #e71d3550;
+    width: 40px;
+    height: 40px;
+    background-color: #e71d3560;
     border-radius: 100%;
     display: flex;
     align-items: center;
@@ -70,8 +70,8 @@ header{
 }
 
 .circulo-vermelho-3{
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     background-color: #e71d35;
     border-radius: 100%;
     display: flex;
